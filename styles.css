@@ -1,0 +1,40 @@
+* {
+	font-family: sans-serif;
+}
+
+.gm-box {
+	width: 500px;
+	height: 500px;
+	display: block;
+	position: absolute;
+	background: black;
+}
+
+.player {
+	width: 30px;
+	height: 30px;
+	background: blue;
+	position: relative;
+	border-radius: 50%;
+}
+
+.cur-key {
+	position: fixed;
+	bottom: 10px;
+	right: 0;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin: -20px;
+}
+
+#cur-key {
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 18px;
+	background: rgb(0,0,0,40%);
+}
